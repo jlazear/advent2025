@@ -1,0 +1,10 @@
+[package]
+name = "advent2025"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.53", features = ["derive"] }
+
+[lints.rust]
+non_camel_case_types = "allow"
