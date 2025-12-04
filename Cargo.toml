@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 clap = { version = "4.5.53", features = ["derive"] }
+recursive = "0.1.1"
 
 [lints.rust]
 non_camel_case_types = "allow"
